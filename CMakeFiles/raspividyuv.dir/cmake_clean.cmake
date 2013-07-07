@@ -3,8 +3,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/raspividyuv.dir/RaspiCLI.c.o"
   "CMakeFiles/raspividyuv.dir/RaspiPreview.c.o"
   "CMakeFiles/raspividyuv.dir/RaspiVidYUV.c.o"
-  "raspividyuv.pdb"
-  "raspividyuv"
+  "bin/raspividyuv.pdb"
+  "bin/raspividyuv"
 )
 
 # Per-language clean rules from dependency scanning.

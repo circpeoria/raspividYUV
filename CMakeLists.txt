@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 project( raspividYUV )
 SET(COMPILE_DEFINITIONS -Werror)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "bin/")
 include_directories(/opt/vc/userland/host_applications/linux/libs/bcm_host/include)
 include_directories(/opt/vc/userland/interface/vcos)
 include_directories(/opt/vc/userland)
