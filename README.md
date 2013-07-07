@@ -1,7 +1,15 @@
 RaspiVidYUV Documentation
 ======================
 
-This application is intended to output a raw YUV video stream. Nearly all of the options available for RaspiVid are available for this application with the exception of demo mode and the preview window.
+This application is intended to output a raw YUV video stream. Nearly all of the options available for RaspiVid are available for this application with the exception of demo mode and the preview window. To build, this application expects https://github.com/raspberrypi/userland.git to be cloned to /opt/vc/userland. After that:
+
+   cmake .
+   make
+
+To run:
+
+   cd bin
+   ./raspividyuv -o test.yuv
 
 Camera Control Options
 ======================
